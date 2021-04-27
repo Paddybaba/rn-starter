@@ -6,8 +6,8 @@ const HomeScreen = (props) => {
     return <View>
              <Text style={styles.text}>React Native</Text>
              <Button 
-               title = "Open Component Page"
-               onPress = {()=>{props.navigation.navigate("Component")}}
+               title = "Open Text Input Demo"
+               onPress = {()=>{props.navigation.navigate("TextInputDemo")}}
              />
               <Button 
                title = "Open List"
@@ -24,6 +24,10 @@ const HomeScreen = (props) => {
              <Button 
                title = "Open ColorBox"
                onPress = {()=>{props.navigation.navigate("ColorBox")}}
+             />
+             <Button 
+               title = "Open Counter Demo"
+               onPress = {()=>{props.navigation.navigate("Counter")}}
              />
             
           </View> 
