@@ -5,15 +5,15 @@ const ColorButton = ({color, setColor, myColor}) => {
 return <View>
     <Text>{color}</Text>
     <Button title={`Increase ${color}`} onPress={()=>{
-        if(myColor >255) return
+        if(myColor >254) return
 
         setColor(myColor+5)
-        console.log(myColor)}}></Button>
+       }}></Button>
     <Button title={`Decrease ${color}`} onPress={()=>{
-        if(myColor < 0) return 
+        if(myColor < 5) return 
         
         setColor(myColor-5)
-        console.log(myColor)}}></Button>
+      }}></Button>
 </View>
 }
 

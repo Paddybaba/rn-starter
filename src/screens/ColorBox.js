@@ -16,6 +16,7 @@ return <View>
     <ColorButton color="Green" setColor={setGreen} myColor={green}/>
     <ColorButton color="Blue" setColor={setBlue} myColor={blue}/>
     <View style={{height:400, width:400, backgroundColor: `"rgb(${red},${green},${blue})"`}}></View>
+    <Text>{`"rgb(${red},${green},${blue})"`}</Text>
     
     </View>
 }
